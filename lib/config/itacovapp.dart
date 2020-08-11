@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:itacov/config/routes/routes.dart';
-import 'package:itacov/ui/constant/constant.dart';
+import 'package:covid/config/routes/routes.dart';
+import 'package:covid/ui/constant/constant.dart';
 
 class ItacovApp extends StatelessWidget {
   @override

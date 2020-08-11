@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:itacov/ui/constant/constant.dart';
-import 'package:itacov/ui/view/do_page.dart';
-import 'package:itacov/ui/view/home_page.dart';
-import 'package:itacov/ui/view/main_page.dart';
-import 'package:itacov/ui/view/news_page.dart';
-import 'package:itacov/ui/view/splash_page.dart';
+import 'package:covid/ui/constant/constant.dart';
+import 'package:covid/ui/view/do_page.dart';
+import 'package:covid/ui/view/home_page.dart';
+import 'package:covid/ui/view/main_page.dart';
+import 'package:covid/ui/view/news_page.dart';
+import 'package:covid/ui/view/splash_page.dart';
 
 class Routes {
   Route<dynamic> onGenerateRoute(RouteSettings settings) {

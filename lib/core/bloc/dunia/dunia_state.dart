@@ -1,4 +1,4 @@
-import 'package:itacov/core/model/dunia/dunia_model.dart';
+import 'package:covid/core/model/dunia/dunia_model.dart';
 import 'package:meta/meta.dart';
 
 @immutable
@@ -12,7 +12,6 @@ class FailureDuniaState extends DuniaState {
   final String errorMessage;
 
   FailureDuniaState(this.errorMessage);
-
 }
 
 class LoadedDuniaState extends DuniaState {

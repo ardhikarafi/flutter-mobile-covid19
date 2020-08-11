@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
-import 'package:itacov/core/model/dunia/dunia_model.dart';
-import 'package:itacov/core/repository/repo_api.dart';
+import 'package:covid/core/model/dunia/dunia_model.dart';
+import 'package:covid/core/repository/repo_api.dart';
 import './bloc.dart';
 
 class DuniaBloc extends Bloc<DuniaEvent, DuniaState> {
@@ -63,7 +63,8 @@ class DuniaBloc extends Bloc<DuniaEvent, DuniaState> {
     List<DuniaModel> listDuniaModel = [
       DuniaModel(name: 'Kasus Positif Seluruh Dunia', value: valuePositifDunia),
       DuniaModel(name: 'Kasus Sembuh Seluruh Dunia', value: valueSembuhDunia),
-      DuniaModel(name: 'Kasus Meninggal Seluruh Dunia', value: valueMeninggalDunia),
+      DuniaModel(
+          name: 'Kasus Meninggal Seluruh Dunia', value: valueMeninggalDunia),
     ];
     yield LoadedDuniaState(listDuniaModel);
   }
