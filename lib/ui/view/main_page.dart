@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:itacov/ui/constant/constant.dart';
-import 'package:itacov/ui/view/do_page.dart';
-import 'package:itacov/ui/view/home_page.dart';
-import 'package:itacov/ui/view/news_page.dart';
-import 'package:itacov/ui/view/profile_page.dart';
+import 'package:covid/ui/constant/constant.dart';
+import 'package:covid/ui/view/do_page.dart';
+import 'package:covid/ui/view/home_page.dart';
+import 'package:covid/ui/view/news_page.dart';
+import 'package:covid/ui/view/profile_page.dart';
 
 class MainPage extends StatefulWidget {
   @override

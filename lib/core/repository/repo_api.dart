@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:itacov/core/model/dunia/dunia_model.dart';
-import 'package:itacov/core/model/indonesia/indonesia_model.dart';
-import 'package:itacov/core/model/provinsi_model.dart';
+import 'package:covid/core/model/dunia/dunia_model.dart';
+import 'package:covid/core/model/indonesia/indonesia_model.dart';
+import 'package:covid/core/model/provinsi_model.dart';
 
 /// Ini Adalah Class Repo
 /// getDataIndonesia() ,
@@ -40,7 +40,6 @@ class RepoApi {
       return Left(error.message);
     }
   }
-
 
   // Get Data Sembuh Dunia
   Future<Either<String, DuniaModel>> getDataSembuhDunia() async {

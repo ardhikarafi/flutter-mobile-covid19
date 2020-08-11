@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:itacov/core/bloc/dunia/bloc.dart';
-import 'package:itacov/core/bloc/dunia/dunia_event.dart';
-import 'package:itacov/core/bloc/indonesia/bloc.dart';
-import 'package:itacov/core/model/indonesia/indonesia_model.dart';
-import 'package:itacov/ui/constant/constant.dart';
+import 'package:covid/core/bloc/dunia/bloc.dart';
+import 'package:covid/core/bloc/dunia/dunia_event.dart';
+import 'package:covid/core/bloc/indonesia/bloc.dart';
+import 'package:covid/core/model/indonesia/indonesia_model.dart';
+import 'package:covid/ui/constant/constant.dart';
 
 class HomeBody extends StatefulWidget {
   @override
@@ -31,7 +31,8 @@ class _HomeBodyState extends State<HomeBody> {
       padding: EdgeInsets.only(top: 234),
       child: Container(
         width: MediaQuery.of(context).size.width,
-        decoration: BoxDecoration(borderRadius: BorderRadius.circular(36), color: Color(0xFFFEFEFE)),
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(36), color: Color(0xFFFEFEFE)),
         padding: EdgeInsets.only(top: 26, left: 22, right: 22, bottom: 100),
         child: Column(
           children: <Widget>[
@@ -88,7 +89,8 @@ class CardBerita extends StatelessWidget {
               height: 134,
               width: double.infinity,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.vertical(top: Radius.circular(spacing(2))),
+                borderRadius:
+                    BorderRadius.vertical(top: Radius.circular(spacing(2))),
                 border: Border.all(
                   color: Colors.black,
                   width: 1,
@@ -194,7 +196,10 @@ class BeritaTerbaru extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return buildHeader(title: 'Berita Terbaru', desc: 'Diperbaharui 1 jam yang lalu', onPressedAction: () => Navigator.pushNamed(context, '/news'));
+    return buildHeader(
+        title: 'Berita Terbaru',
+        desc: 'Diperbaharui 1 jam yang lalu',
+        onPressedAction: () => Navigator.pushNamed(context, '/news'));
   }
 }
 
@@ -533,7 +538,9 @@ class CardKasusDunia extends StatelessWidget {
                           ),
                         ),
                       ),
-                      index == listDuniaModel.length - 1 ? Container() : Divider(thickness: 1),
+                      index == listDuniaModel.length - 1
+                          ? Container()
+                          : Divider(thickness: 1),
                     ],
                   );
                 }).toList(),
@@ -565,7 +572,11 @@ class CardKasusDunia extends StatelessWidget {
             Column(
               children: <Widget>[
                 Text(title, style: TextStyle(color: color, fontSize: 12)),
-                Text(number, style: TextStyle(color: color, fontSize: 32, fontWeight: FontWeight.bold)),
+                Text(number,
+                    style: TextStyle(
+                        color: color,
+                        fontSize: 32,
+                        fontWeight: FontWeight.bold)),
               ],
             )
           ],

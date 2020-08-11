@@ -4,8 +4,8 @@ created by: stefensuhat at 06 Apr 2020 20.56
 */
 
 import 'package:flutter/material.dart';
-import 'package:itacov/ui/constant/constant.dart';
-import 'package:itacov/ui/shared/images.dart';
+import 'package:covid/ui/constant/constant.dart';
+import 'package:covid/ui/shared/images.dart';
 
 class NewsList extends StatelessWidget {
   @override

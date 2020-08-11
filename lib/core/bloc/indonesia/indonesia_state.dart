@@ -1,4 +1,4 @@
-import 'package:itacov/core/model/indonesia/indonesia_model.dart';
+import 'package:covid/core/model/indonesia/indonesia_model.dart';
 import 'package:meta/meta.dart';
 
 @immutable
@@ -16,6 +16,6 @@ class FailureIndonesiaState extends IndonesiaState {
 
 class LoadedIndonesiaState extends IndonesiaState {
   final IndonesiaModel indonesiaModel;
-  
+
   LoadedIndonesiaState(this.indonesiaModel);
 }

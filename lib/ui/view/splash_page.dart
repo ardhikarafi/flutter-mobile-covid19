@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:itacov/ui/constant/constant.dart';
+import 'package:covid/ui/constant/constant.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({Key key}) : super(key: key);
@@ -64,11 +64,11 @@ class _SplashPageState extends State<SplashPage> {
                 'Indonesia\nTanggap\nCOVID-19',
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.headline.copyWith(
-                  color: white,
-                  height: 1.5,
-                  fontFamily: 'Poppins',
-                  fontWeight: FontWeight.w500,
-                ),
+                      color: white,
+                      height: 1.5,
+                      fontFamily: 'Poppins',
+                      fontWeight: FontWeight.w500,
+                    ),
               ),
             ],
           ),

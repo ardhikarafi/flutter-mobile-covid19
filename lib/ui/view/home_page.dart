@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:itacov/core/bloc/indonesia/bloc.dart';
-import 'package:itacov/ui/constant/constant.dart';
-import 'package:itacov/ui/constant/injector.dart';
-import 'package:itacov/ui/widgets/app_widgets.dart';
-import 'package:itacov/ui/widgets/home_body.dart';
+import 'package:covid/core/bloc/indonesia/bloc.dart';
+import 'package:covid/ui/constant/constant.dart';
+import 'package:covid/ui/constant/injector.dart';
+import 'package:covid/ui/widgets/app_widgets.dart';
+import 'package:covid/ui/widgets/home_body.dart';
 
 class HomePage extends StatefulWidget {
   @override

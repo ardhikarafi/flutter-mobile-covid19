@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:itacov/ui/constant/constant.dart';
-import 'package:itacov/ui/constant/typography.dart';
+import 'package:covid/ui/constant/constant.dart';
+import 'package:covid/ui/constant/typography.dart';
 
 class AppWidget extends StatelessWidget {
   final String image;
